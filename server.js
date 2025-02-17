@@ -34,7 +34,7 @@ app.use((req, res, next) => {
 // Middleware
 app.use(
   cors({
-    origin: "https://e-manager-opal.vercel.app", // Allow frontend origin
+    origin: "https://eventify-orcin-beta.vercel.app/", // Allow frontend origin
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
